@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAuth.Api", "WebAuth\WebAuth.Api.csproj", "{112C391A-3706-49F1-BD3F-9F1A34D60073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAuth.Mvc", "WebAuth.Mvc\WebAuth.Mvc.csproj", "{CEDBFE55-3648-4071-A864-D79358AB8912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAuth.OAuth", "WebAuth.OAuth\WebAuth.OAuth.csproj", "{EA4F817D-5E76-4C60-83B6-4D366D98E93B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{112C391A-3706-49F1-BD3F-9F1A34D60073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112C391A-3706-49F1-BD3F-9F1A34D60073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112C391A-3706-49F1-BD3F-9F1A34D60073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112C391A-3706-49F1-BD3F-9F1A34D60073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDBFE55-3648-4071-A864-D79358AB8912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDBFE55-3648-4071-A864-D79358AB8912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDBFE55-3648-4071-A864-D79358AB8912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDBFE55-3648-4071-A864-D79358AB8912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4F817D-5E76-4C60-83B6-4D366D98E93B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4F817D-5E76-4C60-83B6-4D366D98E93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4F817D-5E76-4C60-83B6-4D366D98E93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4F817D-5E76-4C60-83B6-4D366D98E93B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7350F87C-CA5C-4E1D-86A1-5D92B99E00A4}
+	EndGlobalSection
+EndGlobal
